@@ -11,7 +11,7 @@ st.write("Aplikasi ini mendeteksi 4 jenis sampah: Organik, Anorganik, Kertas, da
 
 @st.cache_resource
 def load_model():
-    return YOLO('best.pt')
+    return YOLO('model.pt')
 
 model = load_model()
 
